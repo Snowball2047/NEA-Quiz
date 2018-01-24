@@ -1,0 +1,16 @@
+
+
+user = {
+‘user’ : ‘username’, 
+‘pass’ : ‘password’, 
+’name’ : ‘name’, 
+‘age’ : age, 
+‘year’ : ‘year group’, 
+‘quizzes’ : [list of the quizzes taken (explained in ‘Quiz Finish’ section)]
+}
+
+{‘topic’ : ‘topic’, 
+‘difficulty’ : ‘difficulty’, 
+‘score’ : ‘score’, 
+‘totalQs’ : ‘total number of questions asked’
+}
