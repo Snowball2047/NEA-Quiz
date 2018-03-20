@@ -82,13 +82,13 @@ def new_user():
     if user_exist(username):
         print('\nThat user already exists; please use the log in section to access your account, or enter different user information.')
         menu()
-    print('\nPlease enter in your desired passowrd.')
-    password =  intpu('>>> ')
-    print('\nPlease confirm in your desired passowrd.')
-    password =  intpu('>>> ')
-    user[username] = {"user" : username, "pass" : passowrd, "name" : name, "age" : age, "year" : year, "quizzes" : []}
+    print('\nPlease enter in your desired password.')
+    password =  input('>>> ')
+    print('\nPlease confirm in your desired password.')
+    password =  input('>>> ')
+    users[username] = {"user" : username, "pass" : password, "name" : name, "age" : age, "year" : year, "quizzes" : []}
     print('\nYour username is: ' + username)
-    print('\nYour passowrd is: ' + passowrd)
+    print('\nYour password is: ' + password)
     write(users)
     topic_menu(users)
 
